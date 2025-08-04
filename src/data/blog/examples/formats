@@ -1,0 +1,47 @@
+---
+title: "Markdown Syntax Cheatsheet for Astro Paper"
+description: "A handy reference for writing blog posts using Markdown in the Astro Paper template."
+pubDate: "2025-08-04"
+author: "ChatGPT"
+tags: ["markdown", "astro", "astro-paper", "syntax"]
+layout: "../../layouts/MarkdownPostLayout.astro"
+---
+
+# 📘 Markdown Syntax Cheatsheet for Astro Paper
+
+Here’s a quick reference for writing or editing posts in **Astro Paper** using **Markdown**.
+
+---
+
+## 📝 Basic Markdown Syntax
+
+| Markdown Syntax        | Description                        | Example                           |
+|------------------------|------------------------------------|-----------------------------------|
+ `#`                    | Heading 1 (H1)                     | `# My Title`                      |
+| `##`                   | Heading 2 (H2)                     | `## Subtitle`                     |
+| `###`                  | Heading 3 (H3)                     | `### Section`                     |
+| `**bold**`             | Bold text                          | `**important**` → **important**   |
+| `*italic*`             | Italic text                        | `*emphasis*` → *emphasis*         |
+| `~~strikethrough~~`    | Strikethrough                      | `~~deleted~~` → ~~deleted~~       |
+| \`inline code\`        | Inline code                        | \`console.log()\` → `console.log()` |
+| \`\`\`code block\`\`\` | Code block (use 3 backticks)       | See below                         |
+| `> quote`              | Blockquote                         | > This is a quote                 |
+| `-`, `+`, or `*`       | Unordered list                     | `- Item`                          |
+| `1.`                   | Ordered list                       | `1. First item`                   |
+| `[text](url)`          | Link                               | `[Astro](https://astro.build)`    |
+| `![alt](image-url)`    | Image                              | `![Logo](logo.png)`               |
+| `---`                  | Horizontal line                    | Creates a divider                 |
+
+---
+
+## 🔤 Frontmatter Example (Required at Top of Each Post)
+
+```yaml
+---
+title: "Post Title"
+description: "Short description of your post"
+pubDate: "2025-08-04"
+author: "Your Name"
+tags: ["astro", "markdown"]
+layout: "../../layouts/MarkdownPostLayout.astro"
+---
