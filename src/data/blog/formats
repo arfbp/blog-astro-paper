@@ -17,7 +17,7 @@ Here’s a quick reference for writing or editing posts in **Astro Paper** using
 
 | Markdown Syntax        | Description                        | Example                           |
 |------------------------|------------------------------------|-----------------------------------|
- `#`                    | Heading 1 (H1)                     | `# My Title`                      |
+| `#`                    | Heading 1 (H1)                     | `# My Title`                      |
 | `##`                   | Heading 2 (H2)                     | `## Subtitle`                     |
 | `###`                  | Heading 3 (H3)                     | `### Section`                     |
 | `**bold**`             | Bold text                          | `**important**` → **important**   |
@@ -25,13 +25,18 @@ Here’s a quick reference for writing or editing posts in **Astro Paper** using
 | `~~strikethrough~~`    | Strikethrough                      | `~~deleted~~` → ~~deleted~~       |
 | \`inline code\`        | Inline code                        | \`console.log()\` → `console.log()` |
 | \`\`\`code block\`\`\` | Code block (use 3 backticks)       | See below                         |
-| `> quote`              | Blockquote                         | > This is a quote                 |
+| ` quote`               | Blockquote                         | > This is a quote                 |
 | `-`, `+`, or `*`       | Unordered list                     | `- Item`                          |
 | `1.`                   | Ordered list                       | `1. First item`                   |
 | `[text](url)`          | Link                               | `[Astro](https://astro.build)`    |
 | `![alt](image-url)`    | Image                              | `![Logo](logo.png)`               |
 | `---`                  | Horizontal line                    | Creates a divider                 |
 
+| Kiri     | Tengah   | Kanan   |
+|:---------|:--------:|--------:|
+| Data 1   | Data 2   | Data 3  |
+| Data A   | Data B   | Data C  |
+| ![Image](../../assets/images/resetpassword/1.jpg) | ![Image](../../assets/images/resetpassword/2.jpg) | ![Image](../../assets/images/resetpassword/3.jpg) |
 ---
 
 ## 🔤 Frontmatter Example (Required at Top of Each Post)
